@@ -17,6 +17,10 @@ public class Enemy : MonoBehaviour
             transform.Translate(Vector3.forward * Time.deltaTime * enemySpeed);
             anim.SetBool("IsMoving", true);
         }
+        else
+        {
+            anim.SetBool("IsMoving", false);
+        }
     }
 
     public void Damage()
@@ -42,7 +46,16 @@ public class Enemy : MonoBehaviour
         
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<Player>().Damage();
+            StartCoroutine(Attack(other.gameObject));
         }
+    }
+
+    private IEnumerator Attack(GameObject player)
+    {
+        isChasing = false;
+        anim.SetBool("IsAttacking", true);
+        yield return new WaitForSeconds(0.5f);
+        player.GetComponent<Player>().Damage();
+        anim.SetBool("IsAttacking", false);
     }
 }
