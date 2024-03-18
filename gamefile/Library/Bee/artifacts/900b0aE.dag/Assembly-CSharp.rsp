@@ -390,6 +390,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/_project/Scripts/Enemy.cs"
 "Assets/_project/Scripts/PhysicsUtil.cs"
+"Assets/_project/Scripts/Player.cs"
 "Assets/_project/Scripts/PlayerAttack.cs"
 "Assets/_project/Scripts/PlayerController.cs"
 -langversion:9.0

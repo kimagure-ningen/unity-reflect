@@ -1,8 +1,4 @@
-using System;
-using Cysharp.Threading.Tasks;
 using System.Collections;
-using System.Collections.Generic;
-using System.Timers;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -10,22 +6,17 @@ using Utility;
 
 public class PlayerController : MonoBehaviour
 {
-    private float playerSpeed = 2f;
+    private float playerSpeed = 3f;
     private float jumpPower = 7.5f;
-    private float lineDrawSpeed = 60f;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Light light;
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject visual;
     [SerializeField] private FixedJoystick joystick;
     
-    private float lineLength = 0f;
-
-    RaycastHit hit;
-    
     bool isGrounded()
     {
-        return Physics.Raycast(transform.position, Vector3.down, 1);
+        return Physics.Raycast(transform.position, Vector3.down, 0.2f);
     }
     private void Update()
     {
@@ -45,7 +36,7 @@ public class PlayerController : MonoBehaviour
         }
         
         
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || joystick.Vertical > 0.85f)
         {
             print(isGrounded());
             if (isGrounded())
@@ -55,27 +46,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        // 完成したら消す
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
         }
-    }
-    
-    IEnumerator LightExplosion()
-    {
-        for (int i = 0; i < 150; i++) //150
-        {
-            light.intensity = i / 10f;
-            yield return new WaitForSeconds(0.003f);
-        }
-
-        for (int i = 150; i > 1; i--)
-        {
-            light.intensity = i / 10f;
-            yield return new WaitForSeconds(0.0005f);
-        }
-
-        light.intensity = 1f;
-        lineLength = 0f;
     }
 }
