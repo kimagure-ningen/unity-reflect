@@ -1,6 +1,8 @@
 Library/Bee/artifacts/mvdfrm/Unity.AdaptivePerformance.Editor.ref.dll_387DA3558E47F67C.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Burst.Editor.ref.dll_A05E89C8C71DDB66.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Mathematics.Editor.ref.dll_C54418FC61DECAC0.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Postprocessing.Editor.ref.dll_ACE3C0604F3E1283.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Postprocessing.Runtime.ref.dll_AD0E9C4F3FFBE1F8.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Editor.ref.dll_8E428BD292106D44.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Runtime.ref.dll_AF6CA39B29FA26A7.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Universal.Runtime.ref.dll_A1A70B91B70D10BD.mvfrm
