@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     public void Damage()
     {
         Debug.Log("Damaged");
-        transform.DOScale(new Vector3(transform.localScale.x * 0.5f, transform.localScale.y * 0.5f, transform.localScale.z * 0.5f), 0.5f);
+        Destroy(gameObject);
     }
     
     private void OnTriggerEnter(Collider other)

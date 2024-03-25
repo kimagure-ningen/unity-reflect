@@ -373,6 +373,8 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Notifications.iOS.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Notifications.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
