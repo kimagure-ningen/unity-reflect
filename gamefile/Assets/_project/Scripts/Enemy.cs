@@ -28,13 +28,10 @@ public class Enemy : MonoBehaviour
         Debug.Log("Damaged");
         Destroy(gameObject);
     }
-    
-    private void OnTriggerEnter(Collider other)
+
+    public void OnPlayerFound()
     {
-        if (other.gameObject.tag == "Player")
-        {
-            isChasing = true;
-        }
+        isChasing = true;
     }
 
     private void OnCollisionEnter(Collision other)

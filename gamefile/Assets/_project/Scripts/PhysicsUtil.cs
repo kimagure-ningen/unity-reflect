@@ -19,7 +19,6 @@ namespace Utility
                 
                 if (hit.collider.tag == "Enemy")
                 {
-                    Debug.Log(" enemy");
                     Debug.Log(hit.collider.gameObject.name);
                     hit.collider.gameObject.GetComponent<Enemy>().Damage();
                     
