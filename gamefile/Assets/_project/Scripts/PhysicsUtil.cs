@@ -22,6 +22,10 @@ namespace Utility
                     Debug.Log(hit.collider.gameObject.name);
                     hit.collider.gameObject.GetComponent<Enemy>().Damage();
                     
+                } else if (hit.collider.tag == "Ice")
+                {
+                    Debug.Log(hit.collider.gameObject.name);
+                    hit.collider.gameObject.GetComponent<IceBlock>().Melt();
                 }
                 
                 Vector3 ranDir = new Vector3 (direction.x, direction.y + 2.5f, direction.z);

@@ -28,6 +28,8 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private LineRenderer lineRenderer;
     private float lineLength = 0f;
 
+    [SerializeField] private Animator anim;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -62,6 +64,7 @@ public class PlayerAttack : MonoBehaviour
             if (!isAttacking)
             {
                 Attack();
+                anim.SetTrigger("IsAttacking");
             }
             isAttacking = true;
             

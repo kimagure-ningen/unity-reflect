@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,11 +14,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject visual;
     [SerializeField] private FixedJoystick joystick;
+    private bool isGrounded = false;
+    private bool jumpCoolTime = true;
     
-    bool isGrounded()
-    {
-        return Physics.Raycast(transform.position, Vector3.down, 0.2f);
-    }
     private void Update()
     {
         anim.SetBool("IsRunning", false);
@@ -38,18 +37,39 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space) || joystick.Vertical > 0.85f)
         {
-            print(isGrounded());
-            if (isGrounded())
+            if (isGrounded)
             {
-                anim.SetBool("IsJumping", true);
-                gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+                if (jumpCoolTime)
+                {
+                    StartCoroutine(Jump());
+                }
             }
         }
+
+        IEnumerator Jump()
+        {
+            anim.SetBool("IsJumping", true);
+            gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+            isGrounded = false;
+            jumpCoolTime = false;
+            yield return new WaitForSeconds(0.2f);
+            jumpCoolTime = true;
+            isGrounded = false;
+        }
+        
 
         // 完成したら消す
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
+        }
+    }
+
+    private void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
         }
     }
 }

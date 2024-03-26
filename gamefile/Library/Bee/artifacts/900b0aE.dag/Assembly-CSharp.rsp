@@ -393,11 +393,13 @@
 "Assets/_project/Scripts/DebuggerMaster.cs"
 "Assets/_project/Scripts/Enemy.cs"
 "Assets/_project/Scripts/EnemyMovement.cs"
+"Assets/_project/Scripts/IceBlock.cs"
 "Assets/_project/Scripts/JumpPad.cs"
 "Assets/_project/Scripts/PhysicsUtil.cs"
 "Assets/_project/Scripts/Player.cs"
 "Assets/_project/Scripts/PlayerAttack.cs"
 "Assets/_project/Scripts/PlayerController.cs"
+"Assets/_project/Scripts/TypeWriter.cs"
 -langversion:9.0
 
 /deterministic
