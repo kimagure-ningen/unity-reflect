@@ -9,6 +9,7 @@ TagManager:
   - DeathBounds
   - Ice
   - Ground
+  - Wall
   layers:
   - Default
   - TransparentFX

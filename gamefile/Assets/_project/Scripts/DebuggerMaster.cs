@@ -41,4 +41,9 @@ public class DebuggerMaster : MonoBehaviour
     {
         player.gameObject.transform.position = new Vector3(78, 33, 0);
     }
+
+    public void OnTeleport4ButtonDown()
+    {
+        player.gameObject.transform.position = new Vector3(107f, 32f, 0);
+    }
 }

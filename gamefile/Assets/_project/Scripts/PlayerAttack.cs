@@ -30,6 +30,8 @@ public class PlayerAttack : MonoBehaviour
 
     [SerializeField] private Animator anim;
 
+    [SerializeField] private GameObject particle;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();

@@ -1,17 +1,21 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Animator anim;
-    private float enemySpeed = 1.25f;
+    [SerializeField] private float enemySpeed = 1.25f;
     private bool isChasing = false;
+    [SerializeField] private bool isStatic = false;
 
     private void Update()
     {
+        if (isStatic)
+        {
+            return;
+        }
+        
         if (isChasing)
         {
             transform.Translate(Vector3.forward * Time.deltaTime * enemySpeed);
@@ -49,6 +53,12 @@ public class Enemy : MonoBehaviour
 
     private IEnumerator Attack(GameObject player)
     {
+        if (isStatic)
+        {
+            yield return new WaitForSeconds(0.5f);
+            player.GetComponent<Player>().Damage();
+            yield break;
+        }
         isChasing = false;
         anim.SetBool("IsAttacking", true);
         yield return new WaitForSeconds(0.5f);

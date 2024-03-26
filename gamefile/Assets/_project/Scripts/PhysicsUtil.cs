@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Utility
@@ -26,6 +27,10 @@ namespace Utility
                 {
                     Debug.Log(hit.collider.gameObject.name);
                     hit.collider.gameObject.GetComponent<IceBlock>().Melt();
+                } else if (hit.collider.tag == "Wall" || hit.collider.CompareTag("Ground"))
+                {
+                    Debug.Log(hit.collider.gameObject.name);
+                    hit.collider.gameObject.GetComponent<FragmentEffect>().EmmitFragment(position);
                 }
                 
                 Vector3 ranDir = new Vector3 (direction.x, direction.y + 2.5f, direction.z);
