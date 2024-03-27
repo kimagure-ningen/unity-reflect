@@ -151,6 +151,5 @@ public class PlayerAttack : MonoBehaviour
     public void StickReleased()
     {
         isStickPressed = false;
-        isAttacking = true;
     }
 }
