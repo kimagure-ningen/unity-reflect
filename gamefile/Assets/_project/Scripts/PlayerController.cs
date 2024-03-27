@@ -8,15 +8,21 @@ using Utility;
 public class PlayerController : MonoBehaviour
 {
     private float playerSpeed = 3f;
-    private float jumpPower = 7.5f;
+    public float jumpPower = 7.5f;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Light light;
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject visual;
     [SerializeField] private FixedJoystick joystick;
+    private Player player;
     private bool isGrounded = false;
     private bool jumpCoolTime = true;
-    
+
+    private void Start()
+    {
+        player = GetComponent<Player>();
+    }
+
     private void Update()
     {
         anim.SetBool("IsRunning", false);
@@ -27,11 +33,23 @@ public class PlayerController : MonoBehaviour
             transform.Translate(playerSpeed * Time.deltaTime,0f,0f);
             anim.SetBool("IsRunning", true);
             visual.transform.rotation = Quaternion.Euler(0, 90, 0);
+            player.isStickMoving = true;
         } else if (Input.GetKey(KeyCode.RightArrow) || joystick.Horizontal > 0)
         {
             transform.Translate(-playerSpeed * Time.deltaTime,0f,0f);
             anim.SetBool("IsRunning", true);
             visual.transform.rotation = Quaternion.Euler(0, -90, 0);
+            player.isStickMoving = true;
+        }
+
+        if (joystick.Horizontal == 0f && joystick.Vertical == 0f)
+        {
+            player.isStickMoving = false;
+        }
+
+        if (joystick.Vertical != 0f)
+        {
+            player.isStickMoving = true;
         }
         
         

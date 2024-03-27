@@ -91,7 +91,8 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -105,7 +106,8 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -160,7 +162,8 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -180,7 +183,8 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -200,7 +204,8 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -214,7 +219,8 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -240,7 +246,8 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -248,7 +255,8 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -270,7 +278,8 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -292,7 +301,8 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -346,7 +356,8 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -392,7 +403,8 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -424,7 +436,8 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/_project/Scenes/Game1.unity"
+              "Assets/_project/Scenes/Game1.unity",
+              "Assets/_project/Scenes/Game2.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -594,6 +607,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -805,6 +824,27 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/_project/Scenes/Game1.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/_project/Scenes/Game1.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Physics",
         "dependencies": [
           {
@@ -819,6 +859,12 @@
             "name": "Collider",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "MeshCollider",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -837,7 +883,9 @@
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/_project/Scenes/Game1.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -860,13 +908,23 @@
         "dependencies": [
           {
             "name": "Collider2D",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/_project/Scenes/Game1.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CompositeCollider2D",
             "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "EdgeCollider2D",
+            "scenes": [
+              "Assets/_project/Scenes/Game1.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -975,6 +1033,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",

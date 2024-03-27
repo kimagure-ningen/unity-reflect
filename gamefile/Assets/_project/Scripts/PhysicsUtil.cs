@@ -27,6 +27,8 @@ namespace Utility
                 {
                     Debug.Log(hit.collider.gameObject.name);
                     hit.collider.gameObject.GetComponent<IceBlock>().Melt();
+                    hit.collider.gameObject.GetComponent<FragmentEffect>().EmmitFragment(position);
+                    return points;
                 } else if (hit.collider.tag == "Wall" || hit.collider.CompareTag("Ground"))
                 {
                     Debug.Log(hit.collider.gameObject.name);

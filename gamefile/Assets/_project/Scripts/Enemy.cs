@@ -50,6 +50,14 @@ public class Enemy : MonoBehaviour
             StartCoroutine(Attack(other.gameObject));
         }
     }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("DeathBounds"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private IEnumerator Attack(GameObject player)
     {

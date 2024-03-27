@@ -28,7 +28,6 @@ public class TypeWriter : MonoBehaviour
             {
                 break;
             }
-            Debug.Log(currentText);
             currentText = fullText1.Substring(0, i);
             tutorialText.text = currentText;
             yield return new WaitForSeconds(delay);
@@ -47,7 +46,6 @@ public class TypeWriter : MonoBehaviour
             {
                 break;
             }
-            Debug.Log(currentText);
             currentText = fullText2.Substring(0, i);
             tutorialText.text = currentText;
             yield return new WaitForSeconds(delay);

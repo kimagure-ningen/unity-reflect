@@ -16,7 +16,7 @@ public class DebuggerMaster : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            if (debuggerUI.active)
+            if (debuggerUI.activeSelf)
             {
                 debuggerUI.SetActive(false);
             }
@@ -45,5 +45,11 @@ public class DebuggerMaster : MonoBehaviour
     public void OnTeleport4ButtonDown()
     {
         player.gameObject.transform.position = new Vector3(107f, 32f, 0);
+    }
+    
+    public void OnTeleport5ButtonDown()
+    {
+        Debug.Log("Teleporting to (138, 42)");
+        player.gameObject.transform.position = new Vector3(138f, 43f, 0);
     }
 }

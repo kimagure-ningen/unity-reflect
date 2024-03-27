@@ -39,6 +39,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
 
+	void RegisterModule_ParticleSystem();
+	RegisterModule_ParticleSystem();
+
 	void RegisterModule_Physics();
 	RegisterModule_Physics();
 
@@ -166,13 +169,17 @@ class TimeManager; template <> void RegisterUnityClass<TimeManager>(const char*)
 class TrailRenderer; template <> void RegisterUnityClass<TrailRenderer>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 class PlayableDirector; template <> void RegisterUnityClass<PlayableDirector>(const char*);
+class ParticleSystem; template <> void RegisterUnityClass<ParticleSystem>(const char*);
+class ParticleSystemRenderer; template <> void RegisterUnityClass<ParticleSystemRenderer>(const char*);
 class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
+class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
 class Collider2D; template <> void RegisterUnityClass<Collider2D>(const char*);
 class CompositeCollider2D; template <> void RegisterUnityClass<CompositeCollider2D>(const char*);
+class EdgeCollider2D; template <> void RegisterUnityClass<EdgeCollider2D>(const char*);
 class Physics2DSettings; template <> void RegisterUnityClass<Physics2DSettings>(const char*);
 class PolygonCollider2D; template <> void RegisterUnityClass<PolygonCollider2D>(const char*);
 class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
@@ -189,7 +196,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 93 non stripped classes
+	//Total: 97 non stripped classes
 	//0. Animation
 	RegisterUnityClass<Animation>("Animation");
 	//1. AnimationClip
@@ -340,41 +347,49 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Transform>("Core");
 	//74. PlayableDirector
 	RegisterUnityClass<PlayableDirector>("Director");
-	//75. BoxCollider
+	//75. ParticleSystem
+	RegisterUnityClass<ParticleSystem>("ParticleSystem");
+	//76. ParticleSystemRenderer
+	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
+	//77. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//76. Collider
+	//78. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//77. PhysicsManager
+	//79. MeshCollider
+	RegisterUnityClass<MeshCollider>("Physics");
+	//80. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//78. Rigidbody
+	//81. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//79. SphereCollider
+	//82. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
-	//80. Collider2D
+	//83. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//81. CompositeCollider2D
+	//84. CompositeCollider2D
 	RegisterUnityClass<CompositeCollider2D>("Physics2D");
-	//82. Physics2DSettings
+	//85. EdgeCollider2D
+	RegisterUnityClass<EdgeCollider2D>("Physics2D");
+	//86. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//83. PolygonCollider2D
+	//87. PolygonCollider2D
 	RegisterUnityClass<PolygonCollider2D>("Physics2D");
-	//84. Rigidbody2D
+	//88. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//85. Font
+	//89. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//86. Canvas
+	//90. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//87. CanvasGroup
+	//91. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//88. CanvasRenderer
+	//92. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//89. VFXManager
+	//93. VFXManager
 	RegisterUnityClass<VFXManager>("VFX");
-	//90. VisualEffect
+	//94. VisualEffect
 	RegisterUnityClass<VisualEffect>("VFX");
-	//91. VisualEffectAsset
+	//95. VisualEffectAsset
 	RegisterUnityClass<VisualEffectAsset>("VFX");
-	//92. VisualEffectObject
+	//96. VisualEffectObject
 	RegisterUnityClass<VisualEffectObject>("VFX");
 
 }
