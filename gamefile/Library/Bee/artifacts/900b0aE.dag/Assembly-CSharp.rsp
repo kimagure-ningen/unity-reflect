@@ -399,6 +399,7 @@
 "Assets/_project/Scripts/FragmentEffect.cs"
 "Assets/_project/Scripts/IceBlock.cs"
 "Assets/_project/Scripts/JumpPad.cs"
+"Assets/_project/Scripts/MenuMaster.cs"
 "Assets/_project/Scripts/Orc.cs"
 "Assets/_project/Scripts/PhysicsUtil.cs"
 "Assets/_project/Scripts/Player.cs"

@@ -172,6 +172,7 @@ class PlayableDirector; template <> void RegisterUnityClass<PlayableDirector>(co
 class ParticleSystem; template <> void RegisterUnityClass<ParticleSystem>(const char*);
 class ParticleSystemRenderer; template <> void RegisterUnityClass<ParticleSystemRenderer>(const char*);
 class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
+class CapsuleCollider; template <> void RegisterUnityClass<CapsuleCollider>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
@@ -196,7 +197,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 97 non stripped classes
+	//Total: 98 non stripped classes
 	//0. Animation
 	RegisterUnityClass<Animation>("Animation");
 	//1. AnimationClip
@@ -353,43 +354,45 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
 	//77. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//78. Collider
+	//78. CapsuleCollider
+	RegisterUnityClass<CapsuleCollider>("Physics");
+	//79. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//79. MeshCollider
+	//80. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//80. PhysicsManager
+	//81. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//81. Rigidbody
+	//82. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//82. SphereCollider
+	//83. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
-	//83. Collider2D
+	//84. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//84. CompositeCollider2D
+	//85. CompositeCollider2D
 	RegisterUnityClass<CompositeCollider2D>("Physics2D");
-	//85. EdgeCollider2D
+	//86. EdgeCollider2D
 	RegisterUnityClass<EdgeCollider2D>("Physics2D");
-	//86. Physics2DSettings
+	//87. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//87. PolygonCollider2D
+	//88. PolygonCollider2D
 	RegisterUnityClass<PolygonCollider2D>("Physics2D");
-	//88. Rigidbody2D
+	//89. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//89. Font
+	//90. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//90. Canvas
+	//91. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//91. CanvasGroup
+	//92. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//92. CanvasRenderer
+	//93. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//93. VFXManager
+	//94. VFXManager
 	RegisterUnityClass<VFXManager>("VFX");
-	//94. VisualEffect
+	//95. VisualEffect
 	RegisterUnityClass<VisualEffect>("VFX");
-	//95. VisualEffectAsset
+	//96. VisualEffectAsset
 	RegisterUnityClass<VisualEffectAsset>("VFX");
-	//96. VisualEffectObject
+	//97. VisualEffectObject
 	RegisterUnityClass<VisualEffectObject>("VFX");
 
 }

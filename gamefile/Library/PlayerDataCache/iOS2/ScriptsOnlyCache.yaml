@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - FragmentEffect
     - IceBlock
     - JumpPad
+    - MenuMaster
     - Orc
     - Player
     - PlayerAttack
@@ -86,7 +87,13 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.Graphing.GraphObject
+    - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
+    - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -102,8 +109,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -532,7 +541,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12804}
     - Class: 114
-      Script: {instanceID: 29928}
+      Script: {instanceID: 28790}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -582,6 +591,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 68
@@ -603,13 +614,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2138}
+    - Class: 114
       Script: {instanceID: 2432}
+    - Class: 114
+      Script: {instanceID: 2976}
     - Class: 114
       Script: {instanceID: 3744}
     - Class: 114
+      Script: {instanceID: 3868}
+    - Class: 114
       Script: {instanceID: 3976}
     - Class: 114
+      Script: {instanceID: 4204}
+    - Class: 114
       Script: {instanceID: 4864}
+    - Class: 114
+      Script: {instanceID: 5430}
     - Class: 114
       Script: {instanceID: 5524}
     - Class: 114
@@ -617,22 +640,107 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7484}
     - Class: 114
+      Script: {instanceID: 8112}
+    - Class: 114
       Script: {instanceID: 9042}
     - Class: 114
-      Script: {instanceID: 10994}
+      Script: {instanceID: 9356}
+    - Class: 114
+      Script: {instanceID: 9890}
+    - Class: 114
+      Script: {instanceID: 11052}
     - Class: 114
       Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 29928}
+      Script: {instanceID: 28790}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/_project/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3976}
+    - Class: 114
+      Script: {instanceID: 4864}
+    - Class: 114
+      Script: {instanceID: 5490}
+    - Class: 114
+      Script: {instanceID: 7484}
+    - Class: 114
+      Script: {instanceID: 8112}
+    - Class: 114
+      Script: {instanceID: 9042}
+    - Class: 114
+      Script: {instanceID: 10994}
+    - Class: 114
+      Script: {instanceID: 11508}
+    - Class: 114
+      Script: {instanceID: 57174}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -2651,8 +2759,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d008d65ff36508c3f5e06eb0a87f83a5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuMaster
   platform: 9
   scenePathNames:
   - Assets/_project/Scenes/Game1.unity
   - Assets/_project/Scenes/Game2.unity
+  - Assets/_project/Scenes/Menu.unity
   playerPath: /Users/daitoyamagishi/Desktop/build
