@@ -6,6 +6,7 @@ public class DebuggerMaster : MonoBehaviour
 {
     [SerializeField] private GameObject debuggerUI;
     [SerializeField] private GameObject player;
+    private bool isConsoleOpen = false;
 
     private void Start()
     {
@@ -24,6 +25,15 @@ public class DebuggerMaster : MonoBehaviour
             {
                 debuggerUI.SetActive(true);
             }
+        }
+
+        if (isConsoleOpen)
+        {
+            debuggerUI.SetActive(true);
+        }
+        else
+        {
+            debuggerUI.SetActive(false);
         }
     }
 
@@ -51,5 +61,10 @@ public class DebuggerMaster : MonoBehaviour
     {
         Debug.Log("Teleporting to (138, 42)");
         player.gameObject.transform.position = new Vector3(138f, 43f, 0);
+    }
+
+    public void OnDebugButtonDown()
+    {
+        isConsoleOpen = !isConsoleOpen;
     }
 }

@@ -12461,6 +12461,7 @@ struct DebuggerMaster_t6FFAA9258A63BC6223117BD54C58854FD93D5F04  : public MonoBe
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___debuggerUI;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___player;
+	bool ___isConsoleOpen;
 };
 struct Enemy_t10DB314C96B1CE78B8D967CD3B39F05126409BBB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -20298,9 +20299,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8205[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8206[7] = 
 {
 	static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___movingWall1)),static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___movingWall2)),static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___battleFieldCam)),static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___orcCam)),static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___joystickUI)),static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___orcAnim)),static_cast<int32_t>(offsetof(BattleField_t0A3E13C1DB31019E15495CF20C77CB20D39E0B79, ___orc)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8207[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8207[3] = 
 {
-	static_cast<int32_t>(offsetof(DebuggerMaster_t6FFAA9258A63BC6223117BD54C58854FD93D5F04, ___debuggerUI)),static_cast<int32_t>(offsetof(DebuggerMaster_t6FFAA9258A63BC6223117BD54C58854FD93D5F04, ___player)),};
+	static_cast<int32_t>(offsetof(DebuggerMaster_t6FFAA9258A63BC6223117BD54C58854FD93D5F04, ___debuggerUI)),static_cast<int32_t>(offsetof(DebuggerMaster_t6FFAA9258A63BC6223117BD54C58854FD93D5F04, ___player)),static_cast<int32_t>(offsetof(DebuggerMaster_t6FFAA9258A63BC6223117BD54C58854FD93D5F04, ___isConsoleOpen)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8208[4] = 
 {
 	static_cast<int32_t>(offsetof(U3CAttackU3Ed__9_tDC6636E8C02D919160EECA0CC5FDC1A3760F1D49, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CAttackU3Ed__9_tDC6636E8C02D919160EECA0CC5FDC1A3760F1D49, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CAttackU3Ed__9_tDC6636E8C02D919160EECA0CC5FDC1A3760F1D49, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CAttackU3Ed__9_tDC6636E8C02D919160EECA0CC5FDC1A3760F1D49, ___player)),};

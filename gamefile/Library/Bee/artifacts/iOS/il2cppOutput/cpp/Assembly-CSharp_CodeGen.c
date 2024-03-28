@@ -72,6 +72,7 @@ extern void DebuggerMaster_OnTeleport2ButtonDown_m09F7DB8BCA03D0CC85F8EDC1D06C1E
 extern void DebuggerMaster_OnTeleport3ButtonDown_m83200096256DD4E84E92185086C5C59C59BD3B69 (void);
 extern void DebuggerMaster_OnTeleport4ButtonDown_m14ED1FF0549BFCA1194766FBDDE058EB45B163F5 (void);
 extern void DebuggerMaster_OnTeleport5ButtonDown_m1B8B533F81FF982292E267CBCA046F58FE52916E (void);
+extern void DebuggerMaster_OnDebugButtonDown_mBF58593D437EED1FB736CB9E3AEB2A3C1167DE11 (void);
 extern void DebuggerMaster__ctor_m0D617046D81692DB6A3C069DFA6A156BE145ECC4 (void);
 extern void Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8 (void);
 extern void Enemy_Damage_mADCB6FB0EC5D252DB8C587B74F63BE4B5B1B23E1 (void);
@@ -113,6 +114,7 @@ extern void JumpPad_OnCollisionEnter_m709DEC50D810395579B1D7730D6B73B625E19785 (
 extern void JumpPad__ctor_mC18F7FF2D20A69C3B761A8BCC9DD1BF32D32A31E (void);
 extern void MenuMaster_Awake_mE90029FE85FEC20AB590ECF8ABC3E14C74006644 (void);
 extern void MenuMaster_Update_m82F693821CB90E0A2685027659BF39E724A819D1 (void);
+extern void MenuMaster_Stage1ButtonPressed_m5CFE3F8C7B54760D45C9C223A056A1DAD118963E (void);
 extern void MenuMaster__ctor_m70B4EF0C543BE1450BC0FD5E26BC2CA7BF33CF59 (void);
 extern void Orc_Start_m75B7A939B509006D096A337DD282310CDEF2C1F5 (void);
 extern void Orc_Update_mB53CBD7B286B7BEB0CFAFC1C359FCE645235ACBC (void);
@@ -185,7 +187,7 @@ extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA1
 extern void PhysicsUtil_RefrectionLinePoses_mC3BAD556984ADF15D31C21F7EA9DE084B629616C (void);
 extern void PhysicsUtil_RefrectionLinePoses_m5451667002750BC74AD023DCE114CB68BFDFDD36 (void);
 extern void PhysicsUtil__ctor_mD305BD42BFF4BDF24CC412AC3148AFF2EE5C31D7 (void);
-static Il2CppMethodPointer s_methodPointers[173] = 
+static Il2CppMethodPointer s_methodPointers[175] = 
 {
 	Joystick_get_Horizontal_m78CF4472B86063E54254AC8AE0A52126E4008AFA,
 	Joystick_get_Vertical_mA2B0917896CF9CE47A6D342D1734E43441C3D4BE,
@@ -247,6 +249,7 @@ static Il2CppMethodPointer s_methodPointers[173] =
 	DebuggerMaster_OnTeleport3ButtonDown_m83200096256DD4E84E92185086C5C59C59BD3B69,
 	DebuggerMaster_OnTeleport4ButtonDown_m14ED1FF0549BFCA1194766FBDDE058EB45B163F5,
 	DebuggerMaster_OnTeleport5ButtonDown_m1B8B533F81FF982292E267CBCA046F58FE52916E,
+	DebuggerMaster_OnDebugButtonDown_mBF58593D437EED1FB736CB9E3AEB2A3C1167DE11,
 	DebuggerMaster__ctor_m0D617046D81692DB6A3C069DFA6A156BE145ECC4,
 	Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8,
 	Enemy_Damage_mADCB6FB0EC5D252DB8C587B74F63BE4B5B1B23E1,
@@ -288,6 +291,7 @@ static Il2CppMethodPointer s_methodPointers[173] =
 	JumpPad__ctor_mC18F7FF2D20A69C3B761A8BCC9DD1BF32D32A31E,
 	MenuMaster_Awake_mE90029FE85FEC20AB590ECF8ABC3E14C74006644,
 	MenuMaster_Update_m82F693821CB90E0A2685027659BF39E724A819D1,
+	MenuMaster_Stage1ButtonPressed_m5CFE3F8C7B54760D45C9C223A056A1DAD118963E,
 	MenuMaster__ctor_m70B4EF0C543BE1450BC0FD5E26BC2CA7BF33CF59,
 	Orc_Start_m75B7A939B509006D096A337DD282310CDEF2C1F5,
 	Orc_Update_mB53CBD7B286B7BEB0CFAFC1C359FCE645235ACBC,
@@ -361,7 +365,7 @@ static Il2CppMethodPointer s_methodPointers[173] =
 	PhysicsUtil_RefrectionLinePoses_m5451667002750BC74AD023DCE114CB68BFDFDD36,
 	PhysicsUtil__ctor_mD305BD42BFF4BDF24CC412AC3148AFF2EE5C31D7,
 };
-static const int32_t s_InvokerIndices[173] = 
+static const int32_t s_InvokerIndices[175] = 
 {
 	10142,
 	10142,
@@ -427,6 +431,7 @@ static const int32_t s_InvokerIndices[173] =
 	10222,
 	10222,
 	10222,
+	10222,
 	7962,
 	7962,
 	7088,
@@ -461,6 +466,7 @@ static const int32_t s_InvokerIndices[173] =
 	10222,
 	10222,
 	7962,
+	10222,
 	10222,
 	10222,
 	10222,
@@ -531,7 +537,7 @@ static const int32_t s_InvokerIndices[173] =
 	10081,
 	10222,
 	10081,
-	14732,
+	14733,
 	10222,
 	11713,
 	11041,
@@ -541,7 +547,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	173,
+	175,
 	s_methodPointers,
 	0,
 	NULL,

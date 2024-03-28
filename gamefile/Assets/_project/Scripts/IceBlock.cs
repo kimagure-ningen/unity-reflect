@@ -10,7 +10,7 @@ public class IceBlock : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player Slipped on Ice!");
-            other.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.back * 2000f);
+            other.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.left * 750f);
         }
     }
     

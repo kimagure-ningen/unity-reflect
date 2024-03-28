@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuMaster : MonoBehaviour
 {
@@ -30,10 +31,11 @@ public class MenuMaster : MonoBehaviour
                 levelSelectUI.SetActive(true);
                 LevelSelectCamera.Priority = 15;
             }
-            else
-            {
-                
-            }
         }
+    }
+
+    public void Stage1ButtonPressed()
+    {
+        SceneManager.LoadScene("Game1");
     }
 }

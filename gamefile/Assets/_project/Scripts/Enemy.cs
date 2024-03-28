@@ -56,6 +56,7 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.CompareTag("DeathBounds"))
         {
             Destroy(gameObject);
+            Debug.Log("Destroyed Enemy!");
         }
     }
 

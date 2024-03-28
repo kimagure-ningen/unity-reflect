@@ -508,7 +508,8 @@
             "name": "Sprite",
             "scenes": [
               "Assets/_project/Scenes/Game1.unity",
-              "Assets/_project/Scenes/Game2.unity"
+              "Assets/_project/Scenes/Game2.unity",
+              "Assets/_project/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -909,9 +910,7 @@
           },
           {
             "name": "MeshCollider",
-            "scenes": [
-              "Assets/_project/Scenes/Game2.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1285,7 +1284,8 @@
             "name": "Canvas",
             "scenes": [
               "Assets/_project/Scenes/Game1.unity",
-              "Assets/_project/Scenes/Game2.unity"
+              "Assets/_project/Scenes/Game2.unity",
+              "Assets/_project/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1300,7 +1300,8 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/_project/Scenes/Game1.unity",
-              "Assets/_project/Scenes/Game2.unity"
+              "Assets/_project/Scenes/Game2.unity",
+              "Assets/_project/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null

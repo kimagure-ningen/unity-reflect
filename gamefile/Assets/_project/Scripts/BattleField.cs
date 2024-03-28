@@ -14,12 +14,9 @@ public class BattleField : MonoBehaviour
     [SerializeField] private GameObject joystickUI;
     [SerializeField] private Animator orcAnim;
     [SerializeField] private GameObject orc;
-    // private CameraShake orcCameShake;
-
-    private void Start()
-    {
-        // orcCameShake = orcCam.gameObject.GetComponent<CameraShake>();
-    }
+    [SerializeField] private AudioSource groundingSound;
+    [SerializeField] private AudioSource orcBarkSound;
+    [SerializeField] private GameObject fieldVisual;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -39,17 +36,30 @@ public class BattleField : MonoBehaviour
             .OnComplete(() =>
             {
                 orcCam.Priority = 20;
+                groundingSound.Play();
                 joystickUI.SetActive(false);
             });
         yield return new WaitForSeconds(4f);
         orcAnim.SetTrigger("Taunt");
-        // orcCameShake.InduceStress(1f);
+        orcBarkSound.Play();
         yield return new WaitForSeconds(2f);
         orcAnim.SetTrigger("Attack2");
         yield return new WaitForSeconds(3f);
+        groundingSound.Pause();
         orcCam.Priority = 5;
         joystickUI.SetActive(true);
         yield return new WaitForSeconds(2f);
         orc.GetComponent<Orc>().RunForward();
+    }
+
+    public void OrcDead()
+    {
+        battleFieldCam.Priority = 5;
+        Destroy(fieldVisual);
+        movingWall2.transform.DOScaleY(0f, 2f)
+            .OnComplete(() =>
+            {
+                Debug.Log("Orc is Dead!");
+            });
     }
 }

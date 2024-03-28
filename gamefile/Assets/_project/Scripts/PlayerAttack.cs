@@ -1,6 +1,3 @@
-using Cysharp.Threading.Tasks;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Utility;
@@ -38,6 +35,8 @@ public class PlayerAttack : MonoBehaviour
 
     private Vector3 attackingPos;
     private bool isTouching = false;
+    
+    [SerializeField] private AudioSource audioSource;
 
     private void Start()
     {
@@ -61,6 +60,9 @@ public class PlayerAttack : MonoBehaviour
         {
             return;
         }
+        
+        
+        // PC DEBUG用
         
         if (Input.GetMouseButtonDown(0))
         {
@@ -114,7 +116,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (touch.phase == TouchPhase.Ended)
         {
-            if (isTouching)
+            if (!isTouching)
             {
                 return;
             }
@@ -135,6 +137,8 @@ public class PlayerAttack : MonoBehaviour
         attackingPos = new Vector3(transform.position.x + 0.25f, transform.position.y + 1.0f, transform.position.z);
         attackDirX = releasePos.x - touchPos.x;
         attackDirY = releasePos.y - touchPos.y;
+        
+        audioSource.Play();
 
         DOTween.To(() => lineLength, x => lineLength = x, 30f, 0.7f).OnComplete(() =>
         {

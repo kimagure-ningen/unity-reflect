@@ -385,6 +385,12 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/Core/FlagEnumAttribute.cs"
+"Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs"
+"Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBox.cs"
+"Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs"
+"Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs"
+"Assets/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs"
 "Assets/Joystick Pack/Scripts/Base/Joystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
@@ -405,8 +411,10 @@
 "Assets/_project/Scripts/Player.cs"
 "Assets/_project/Scripts/PlayerAttack.cs"
 "Assets/_project/Scripts/PlayerController.cs"
+"Assets/_project/Scripts/Stage1Complete.cs"
 "Assets/_project/Scripts/TurtleLauncher.cs"
 "Assets/_project/Scripts/TypeWriter.cs"
+"Assets/_project/Scripts/Water.cs"
 -langversion:9.0
 
 /deterministic

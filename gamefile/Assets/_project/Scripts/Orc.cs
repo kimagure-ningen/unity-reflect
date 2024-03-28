@@ -7,9 +7,13 @@ using DG.Tweening;
 public class Orc : MonoBehaviour
 {
     [SerializeField] private Animator anim;
+    
+    [SerializeField] private BattleField battleField;
 
     private float enemyHealth = 100f;
     private Rigidbody rigidbody;
+    private bool isDying = false;
+    private bool isDead = false;
 
     private void Start()
     {
@@ -24,6 +28,22 @@ public class Orc : MonoBehaviour
         } else if (rigidbody.velocity.magnitude == 0f)
         {
             anim.SetTrigger("Stop");
+        }
+        
+        if (enemyHealth <= 0)
+        {
+            if (!isDead)
+            {
+                Die();
+            }
+        }
+
+        if (enemyHealth <= 25f)
+        {
+            if (!isDying)
+            {
+                Dizzy();
+            }
         }
     }
 
@@ -53,6 +73,22 @@ public class Orc : MonoBehaviour
 
     public void Damage()
     {
-        
+        if (enemyHealth >= 0f)
+        {
+            enemyHealth--;
+        }
+    }
+
+    private void Dizzy()
+    {
+        isDying = true;
+        transform.DOScale(0.75f, 1f).OnComplete(() => anim.SetTrigger("Dizzy"));
+    }
+
+    private void Die()
+    {
+        battleField.OrcDead();
+        anim.SetTrigger("Die");
+        isDead = true;
     }
 }
