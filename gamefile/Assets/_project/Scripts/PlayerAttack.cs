@@ -37,6 +37,7 @@ public class PlayerAttack : MonoBehaviour
     private bool isStickPressed = false;
 
     private Vector3 attackingPos;
+    private bool isTouching = false;
 
     private void Start()
     {
@@ -108,16 +109,22 @@ public class PlayerAttack : MonoBehaviour
         if (touch.phase == TouchPhase.Began)
         {
             touchPos = new Vector3(touch.position.x, touch.position.y, 0);
+            isTouching = true;
         }
 
         if (touch.phase == TouchPhase.Ended)
         {
+            if (isTouching)
+            {
+                return;
+            }
             releasePos = new Vector3(touch.position.x, touch.position.y, 0);
             
             if (!isAttacking)
             {
                 Attack();
                 isAttacking = true;
+                isTouching = false;
                 anim.SetTrigger("IsAttacking");
             }
         }
