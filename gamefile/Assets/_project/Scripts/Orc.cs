@@ -49,14 +49,26 @@ public class Orc : MonoBehaviour
 
     public void RunForward()
     {
+        if (isDead)
+        {
+            return;
+        }
         transform.DOLocalMoveX(155f, 4f)
             .SetEase(Ease.InOutCubic)
             .OnPlay(() =>
                 {
+                if (isDead)
+                {
+                    return;
+                }
                 anim.SetBool("IsMoving", true);
             })
             .OnComplete(() =>
             {
+                if (isDead)
+                {
+                    return;
+                }
                 Debug.Log("Called");
                 anim.SetBool("IsMoving", false);
                 StartCoroutine(Attack());
@@ -65,10 +77,27 @@ public class Orc : MonoBehaviour
     
     private IEnumerator Attack()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
+        if (isDead)
+        {
+            yield break;
+        }
         anim.SetTrigger("Attack2");
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
+        if (isDead)
+        {
+            yield break;
+        }
         anim.SetTrigger("Attack1");
+        yield return new WaitForSeconds(2f);
+        if (isDead)
+        {
+            yield break;
+        }
+        
+        Debug.Log("Attack");
+        transform.Rotate(0f, 180f, 0f);
+        RunForward();
     }
 
     public void Damage()
@@ -88,7 +117,17 @@ public class Orc : MonoBehaviour
     private void Die()
     {
         battleField.OrcDead();
-        anim.SetTrigger("Die");
         isDead = true;
+        transform.DOKill();
+        anim.SetTrigger("Die");
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * 100f, ForceMode.Impulse);
+            other.gameObject.GetComponent<Player>().Damage();
+        }
     }
 }

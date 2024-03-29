@@ -98,6 +98,8 @@ MonoBehaviour:
   anim: {fileID: 0}
   enemySpeed: 1.25
   isStatic: 1
+  explosion: {fileID: 5142908160974047966, guid: 3b2d1ff18920347f9b05adce1cf1d4ab,
+    type: 3}
 --- !u!1001 &2618754716580895041
 PrefabInstance:
   m_ObjectHideFlags: 0

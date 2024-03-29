@@ -14,9 +14,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject visual;
     [SerializeField] private FixedJoystick joystick;
+    [SerializeField] private ParticleSystem dust;
     private Player player;
     private bool isGrounded = false;
     private bool jumpCoolTime = true;
+    public bool isGameEnd = false;
 
     private void Start()
     {
@@ -28,16 +30,30 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("IsRunning", false);
         anim.SetBool("IsJumping", false);
         
+        if (isGameEnd)
+        {
+            return;
+        }
+        
         if (Input.GetKey(KeyCode.LeftArrow) || joystick.Horizontal < 0)
         {
             transform.Translate(playerSpeed * Time.deltaTime,0f,0f);
             anim.SetBool("IsRunning", true);
+            if (isGrounded)
+            {
+                dust.Play();
+                
+            }
             visual.transform.rotation = Quaternion.Euler(0, 90, 0);
             player.isStickMoving = true;
         } else if (Input.GetKey(KeyCode.RightArrow) || joystick.Horizontal > 0)
         {
             transform.Translate(-playerSpeed * Time.deltaTime,0f,0f);
             anim.SetBool("IsRunning", true);
+            if (isGrounded)
+            {
+                dust.Play();
+            }
             visual.transform.rotation = Quaternion.Euler(0, -90, 0);
             player.isStickMoving = true;
         }
@@ -74,19 +90,13 @@ public class PlayerController : MonoBehaviour
             jumpCoolTime = true;
             isGrounded = false;
         }
-        
-
-        // 完成したら消す
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(0);
-        }
     }
 
-    private void OnCollisionStay(Collision other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
+            Debug.Log("Grounded");
             isGrounded = true;
         }
     }

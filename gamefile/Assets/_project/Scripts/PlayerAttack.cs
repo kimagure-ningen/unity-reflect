@@ -64,24 +64,24 @@ public class PlayerAttack : MonoBehaviour
         
         // PC DEBUG用
         
-        if (Input.GetMouseButtonDown(0))
-        {
-            touchPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-            // Debug.Log("touchPos: " + touchPos);
-        }
-        
-        if (Input.GetMouseButtonUp(0))
-        {
-            releasePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-            // Debug.Log("releasePos: " + releasePos);
-            if (!isAttacking)
-            {
-                Attack();
-                anim.SetTrigger("IsAttacking");
-            }
-            isAttacking = true;
-            
-        }
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     touchPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+        //     // Debug.Log("touchPos: " + touchPos);
+        // }
+        //
+        // if (Input.GetMouseButtonUp(0))
+        // {
+        //     releasePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+        //     // Debug.Log("releasePos: " + releasePos);
+        //     if (!isAttacking)
+        //     {
+        //         Attack();
+        //         anim.SetTrigger("IsAttacking");
+        //     }
+        //     isAttacking = true;
+        //     
+        // }
         
         if (player.isStickMoving)
         {

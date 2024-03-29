@@ -17,6 +17,7 @@ public class BattleField : MonoBehaviour
     [SerializeField] private AudioSource groundingSound;
     [SerializeField] private AudioSource orcBarkSound;
     [SerializeField] private GameObject fieldVisual;
+    [SerializeField] private GameObject tutorial;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -56,6 +57,7 @@ public class BattleField : MonoBehaviour
     {
         battleFieldCam.Priority = 5;
         Destroy(fieldVisual);
+        tutorial.SetActive(true);
         movingWall2.transform.DOScaleY(0f, 2f)
             .OnComplete(() =>
             {

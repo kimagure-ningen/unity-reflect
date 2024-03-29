@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float enemySpeed = 1.25f;
     private bool isChasing = false;
     [SerializeField] private bool isStatic = false;
+    [SerializeField] private GameObject explosion;
 
     private void Update()
     {
@@ -30,6 +31,7 @@ public class Enemy : MonoBehaviour
     public void Damage()
     {
         Debug.Log("Damaged");
+        Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
