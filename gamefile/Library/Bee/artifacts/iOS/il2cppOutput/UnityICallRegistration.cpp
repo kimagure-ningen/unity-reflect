@@ -580,6 +580,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Audio.AudioPlayableOutput
 
+	//Start Registrations for type : UnityEngine.AudioClip
+
+		//System.Single UnityEngine.AudioClip::get_length()
+		void Register_UnityEngine_AudioClip_get_length();
+		Register_UnityEngine_AudioClip_get_length();
+
+	//End Registrations for type : UnityEngine.AudioClip
+
 	//Start Registrations for type : UnityEngine.AudioSettings
 
 		//System.Boolean UnityEngine.AudioSettings::StartAudioOutput()
@@ -602,9 +610,29 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_get_volume();
 		Register_UnityEngine_AudioSource_get_volume();
 
+		//System.Void UnityEngine.AudioSource::Pause()
+		void Register_UnityEngine_AudioSource_Pause();
+		Register_UnityEngine_AudioSource_Pause();
+
+		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
+		void Register_UnityEngine_AudioSource_PlayHelper();
+		Register_UnityEngine_AudioSource_PlayHelper();
+
 		//System.Void UnityEngine.AudioSource::SetPitch(UnityEngine.AudioSource,System.Single)
 		void Register_UnityEngine_AudioSource_SetPitch();
 		Register_UnityEngine_AudioSource_SetPitch();
+
+		//System.Void UnityEngine.AudioSource::Stop(System.Boolean)
+		void Register_UnityEngine_AudioSource_Stop();
+		Register_UnityEngine_AudioSource_Stop();
+
+		//System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
+		void Register_UnityEngine_AudioSource_set_clip();
+		Register_UnityEngine_AudioSource_set_clip();
+
+		//System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
+		void Register_UnityEngine_AudioSource_set_spatialBlend();
+		Register_UnityEngine_AudioSource_set_spatialBlend();
 
 		//System.Void UnityEngine.AudioSource::set_volume(System.Single)
 		void Register_UnityEngine_AudioSource_set_volume();
@@ -794,6 +822,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_RemoveCommandBufferImpl();
 		Register_UnityEngine_Camera_RemoveCommandBufferImpl();
 
+		//System.Void UnityEngine.Camera::Render()
+		void Register_UnityEngine_Camera_Render();
+		Register_UnityEngine_Camera_Render();
+
 		//System.Void UnityEngine.Camera::ResetProjectionMatrix()
 		void Register_UnityEngine_Camera_ResetProjectionMatrix();
 		Register_UnityEngine_Camera_ResetProjectionMatrix();
@@ -837,6 +869,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Camera::WorldToScreenPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
 		void Register_UnityEngine_Camera_WorldToScreenPoint_Injected();
 		Register_UnityEngine_Camera_WorldToScreenPoint_Injected();
+
+		//System.Void UnityEngine.Camera::WorldToViewportPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
+		void Register_UnityEngine_Camera_WorldToViewportPoint_Injected();
+		Register_UnityEngine_Camera_WorldToViewportPoint_Injected();
 
 		//System.Void UnityEngine.Camera::get_backgroundColor_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_Camera_get_backgroundColor_Injected();
@@ -2070,6 +2106,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Gradient_SetKeys();
 		Register_UnityEngine_Gradient_SetKeys();
 
+		//System.Void UnityEngine.Gradient::set_colorKeys(UnityEngine.GradientColorKey[])
+		void Register_UnityEngine_Gradient_set_colorKeys();
+		Register_UnityEngine_Gradient_set_colorKeys();
+
 		//System.Void UnityEngine.Gradient::set_mode(UnityEngine.GradientMode)
 		void Register_UnityEngine_Gradient_set_mode();
 		Register_UnityEngine_Gradient_set_mode();
@@ -3186,6 +3226,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Mesh_RecalculateBoundsImpl();
 		Register_UnityEngine_Mesh_RecalculateBoundsImpl();
 
+		//System.Void UnityEngine.Mesh::RecalculateTangentsImpl(UnityEngine.Rendering.MeshUpdateFlags)
+		void Register_UnityEngine_Mesh_RecalculateTangentsImpl();
+		Register_UnityEngine_Mesh_RecalculateTangentsImpl();
+
 		//System.Void UnityEngine.Mesh::SetArrayForChannelImpl(UnityEngine.Rendering.VertexAttribute,UnityEngine.Rendering.VertexAttributeFormat,System.Int32,System.Array,System.Int32,System.Int32,System.Int32,UnityEngine.Rendering.MeshUpdateFlags)
 		void Register_UnityEngine_Mesh_SetArrayForChannelImpl();
 		Register_UnityEngine_Mesh_SetArrayForChannelImpl();
@@ -3241,6 +3285,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.MeshFilter::set_sharedMesh(UnityEngine.Mesh)
 		void Register_UnityEngine_MeshFilter_set_sharedMesh();
 		Register_UnityEngine_MeshFilter_set_sharedMesh();
+
+		//UnityEngine.Mesh UnityEngine.MeshFilter::get_sharedMesh()
+		void Register_UnityEngine_MeshFilter_get_sharedMesh();
+		Register_UnityEngine_MeshFilter_get_sharedMesh();
 
 	//End Registrations for type : UnityEngine.MeshFilter
 
@@ -3485,6 +3533,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.ParticleSystem::Emit_Internal(System.Int32)
 		void Register_UnityEngine_ParticleSystem_Emit_Internal();
 		Register_UnityEngine_ParticleSystem_Emit_Internal();
+
+		//System.Void UnityEngine.ParticleSystem::Play(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_Play();
+		Register_UnityEngine_ParticleSystem_Play();
 
 	//End Registrations for type : UnityEngine.ParticleSystem
 

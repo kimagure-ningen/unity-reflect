@@ -411,6 +411,9 @@
 "Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs"
 "Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs"
 "Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs"
+"Assets/TransitionsPlus/Editor/MenuIntegration.cs"
+"Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs"
+"Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs"
 -langversion:9.0
 
 /deterministic
