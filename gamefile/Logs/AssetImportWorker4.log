@@ -242,3 +242,1113 @@ Received Import Request.
 Start importing Assets/_project/Scenes/Game1.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1fc95e579fb6abaa3cf3b62cde1c32') in 0.007966 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x2a3a5b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.876 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1806ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (601ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.6 MB). Loaded Objects now: 6060.
+Memory consumption went from 212.5 MB to 210.8 MB.
+Total: 4.282083 ms (FindLiveObjects: 0.194917 ms CreateObjectMapping: 0.095542 ms MarkObjects: 3.508666 ms  DeleteObjects: 0.481959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6076.
+Memory consumption went from 217.2 MB to 215.6 MB.
+Total: 2.864250 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.064042 ms MarkObjects: 2.387583 ms  DeleteObjects: 0.227708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1290ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6092.
+Memory consumption went from 221.9 MB to 220.3 MB.
+Total: 2.728292 ms (FindLiveObjects: 0.179708 ms CreateObjectMapping: 0.067000 ms MarkObjects: 2.240959 ms  DeleteObjects: 0.240125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.423 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (270ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6108.
+Memory consumption went from 226.7 MB to 225.0 MB.
+Total: 2.899417 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.067542 ms MarkObjects: 2.388125 ms  DeleteObjects: 0.258250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.346 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1182ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (835ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6124.
+Memory consumption went from 231.4 MB to 229.7 MB.
+Total: 2.739333 ms (FindLiveObjects: 0.211875 ms CreateObjectMapping: 0.067750 ms MarkObjects: 2.221542 ms  DeleteObjects: 0.237375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (857ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6140.
+Memory consumption went from 236.1 MB to 234.5 MB.
+Total: 4.458750 ms (FindLiveObjects: 0.238875 ms CreateObjectMapping: 0.071250 ms MarkObjects: 3.912709 ms  DeleteObjects: 0.234959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6156.
+Memory consumption went from 240.9 MB to 239.2 MB.
+Total: 2.851041 ms (FindLiveObjects: 0.193333 ms CreateObjectMapping: 0.065417 ms MarkObjects: 2.356417 ms  DeleteObjects: 0.235250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.417 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.882 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (883ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6172.
+Memory consumption went from 245.5 MB to 243.9 MB.
+Total: 3.078250 ms (FindLiveObjects: 0.197708 ms CreateObjectMapping: 0.068667 ms MarkObjects: 2.552625 ms  DeleteObjects: 0.258625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4431.174728 seconds.
+  path: Assets/_project/Scenes/Menu.unity
+  artifactKey: Guid(7f0df870df4ca403fb255628d0ea0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_project/Scenes/Menu.unity using Guid(7f0df870df4ca403fb255628d0ea0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243df7e48704578681b5ccf084c7244c') in 0.006444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2211.503144 seconds.
+  path: Assets/_project/Scenes/Game1.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_project/Scenes/Game1.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a754fefcdaae235821eed70e5b1d450') in 0.002959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6188.
+Memory consumption went from 250.1 MB to 248.4 MB.
+Total: 5.145958 ms (FindLiveObjects: 0.200667 ms CreateObjectMapping: 0.065833 ms MarkObjects: 4.610584 ms  DeleteObjects: 0.268417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x29aea7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6204.
+Memory consumption went from 254.8 MB to 253.1 MB.
+Total: 2.922083 ms (FindLiveObjects: 0.189166 ms CreateObjectMapping: 0.065042 ms MarkObjects: 2.428375 ms  DeleteObjects: 0.238916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178.688183 seconds.
+  path: Assets/_project/Scenes/Game1.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_project/Scenes/Game1.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1015b3fd8c19547c353a603c43f2ce3c') in 0.001430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.033626 seconds.
+  path: Assets/_project/Scenes/Menu.unity
+  artifactKey: Guid(7f0df870df4ca403fb255628d0ea0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_project/Scenes/Menu.unity using Guid(7f0df870df4ca403fb255628d0ea0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243df7e48704578681b5ccf084c7244c') in 0.001567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.314781 seconds.
+  path: Assets/_project/Scenes/Game2.unity
+  artifactKey: Guid(cfddd1d477fa54992923fb1f59e68471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_project/Scenes/Game2.unity using Guid(cfddd1d477fa54992923fb1f59e68471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b9c5f8aca20e6cb4f652c4babc269') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

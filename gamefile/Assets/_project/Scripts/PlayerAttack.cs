@@ -142,7 +142,7 @@ public class PlayerAttack : MonoBehaviour
 
         DOTween.To(() => lineLength, x => lineLength = x, 30f, 0.7f).OnComplete(() =>
         {
-            DOTween.To(() => light.intensity, x => light.intensity = x, 15, 0.3f).OnComplete(() =>
+            DOTween.To(() => light.intensity, x => light.intensity = x, 4, 0.25f).OnComplete(() =>
             {
                 lineLength = 0f;
                 cameraTransform.localPosition = originalCameraTransform + Random.insideUnitSphere * 0.02f;
