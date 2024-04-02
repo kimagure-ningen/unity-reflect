@@ -396,6 +396,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/MasterCube/Script/MasterCube.cs"
 "Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs"
 "Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs"
 "Assets/TransitionsPlus/Runtime/Scripts/Misc.cs"
