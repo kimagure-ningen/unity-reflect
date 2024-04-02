@@ -1983,3 +1983,703 @@ Received Import Request.
 Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000291 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 175.585369 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.002626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.087271 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.002294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.917303 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.001857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.241707 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.002166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 73.270275 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.001922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.000298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 68.579081 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.002352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001599 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.989905 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.008055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x17e087000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 1343ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6268.
+Memory consumption went from 266.7 MB to 265.1 MB.
+Total: 3.062959 ms (FindLiveObjects: 0.189542 ms CreateObjectMapping: 0.074291 ms MarkObjects: 2.547042 ms  DeleteObjects: 0.251459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.270006 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.032839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat
+  artifactKey: Guid(de88005d1f5e1554494e69b81da77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat using Guid(de88005d1f5e1554494e69b81da77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8915abc2bfa6f437bc73cef99ff3d795') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.048698 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_Rocks.mat
+  artifactKey: Guid(438bebb537619934383f5748b89a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_Rocks.mat using Guid(438bebb537619934383f5748b89a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b826099fdef1567aad133708f7772dce') in 0.000267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 176.134564 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.001837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Materials/Roof_Hay.mat
+  artifactKey: Guid(53fea407df5fd294393652dc76882d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Materials/Roof_Hay.mat using Guid(53fea407df5fd294393652dc76882d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758917a11502f23c21fd18fed87076f8') in 0.000311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_B.mat
+  artifactKey: Guid(3f532fd3bc3865a47b05fffc3fe2b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_B.mat using Guid(3f532fd3bc3865a47b05fffc3fe2b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f97e6f5e3ec73b024581e3caf7e0d3') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat
+  artifactKey: Guid(de88005d1f5e1554494e69b81da77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat using Guid(de88005d1f5e1554494e69b81da77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8915abc2bfa6f437bc73cef99ff3d795') in 0.000288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x17e087000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (883ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6284.
+Memory consumption went from 271.6 MB to 270.0 MB.
+Total: 3.054208 ms (FindLiveObjects: 0.189125 ms CreateObjectMapping: 0.072459 ms MarkObjects: 2.555083 ms  DeleteObjects: 0.237000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 201.750083 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.025030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x17e087000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.419 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.886 seconds
+Domain Reload Profiling: 1305ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (886ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6300.
+Memory consumption went from 276.6 MB to 274.9 MB.
+Total: 2.942000 ms (FindLiveObjects: 0.176625 ms CreateObjectMapping: 0.062917 ms MarkObjects: 2.441250 ms  DeleteObjects: 0.260625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.450466 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.002308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Begin MonoManager ReloadAssembly
+Thread 0x17e087000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.434 seconds
+Refreshing native plugins compatible for Editor in 4.30 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1326ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (892ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(6161558d13f964113bcd00d5a0a00e7a) path("Assets/TransitionsPlus/Editor/TransitionProfileEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0ba5c4b9ea09644efab0e0ba150c3675) path("Assets/_project/Scripts/Orc.cs") state(2)
+Script is not up to date after domain reload: guid(dc1698fa71345c844980ab59444f9fe1) path("Assets/MasterCube/Editor/MasterCubeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(89b43e4d773ba164787cf60b6f788642) path("Assets/MasterCube/Editor/CombineMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a0c96b3ac24cf4f20b6719568a852808) path("Assets/_project/Scripts/PlayerAttack.cs") state(2)
+Script is not up to date after domain reload: guid(e0f9d22fa85eb43e8af60b22fb69c43c) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionProfile.cs") state(2)
+Script is not up to date after domain reload: guid(acde01fe25a40428f8a08c9b583c5ef0) path("Assets/TransitionsPlus/Editor/MenuIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(b7960bf3f811f4714b8ba2cf4594e5ba) path("Assets/_project/Scripts/PlayerController.cs") state(2)
+Script is not up to date after domain reload: guid(0a5bcdf3e7de54ac0ad99b09c1a9258e) path("Assets/TransitionsPlus/Runtime/Scripts/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(fa8f9dfa856d6400e8521f8d53ee0340) path("Assets/_project/Scripts/BGMSwitcher.cs") state(2)
+Script is not up to date after domain reload: guid(5cd9432855aed4f4d9d9fff2252da1f5) path("Assets/MasterCube/Script/MasterCube.cs") state(2)
+Script is not up to date after domain reload: guid(70075e8b5853e4f6fb6f3aeafbe29789) path("Assets/TransitionsPlus/Editor/TransitionAnimatorEditor.cs") state(2)
+Script is not up to date after domain reload: guid(db6e3a1bb95504815aeca7ee6cc67b71) path("Assets/_project/Scripts/Stage1Complete.cs") state(2)
+Script is not up to date after domain reload: guid(a97c694047bdc4120a2052cf33c30d38) path("Assets/_project/Scripts/MenuMaster.cs") state(2)
+Script is not up to date after domain reload: guid(828075bc53f2de84982a943870529b7b) path("Packages/com.unity.ugui/Runtime/UI/Core/Misc.cs") state(2)
+Script is not up to date after domain reload: guid(e297ef63799054727bcf1a35d9f85f1f) path("Assets/_project/Scripts/BattleField.cs") state(2)
+Script is not up to date after domain reload: guid(d865300cd27f544f6952b302d2d695ed) path("Assets/TransitionsPlus/Demos/On Demand/StartTransition.cs") state(2)
+Script is not up to date after domain reload: guid(5f6ce2541cb4a44b1b3037237bd00946) path("Assets/TransitionsPlus/Runtime/Scripts/TransitionAnimator.cs") state(2)
+Script is not up to date after domain reload: guid(9e0e15bfb693246958cba7bc11081b29) path("Assets/_project/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(f316dd1e1ff094cad976e832b7cbe370) path("Assets/TransitionsPlus/Demos/Fade Between Cameras/MoveSphere.cs") state(2)
+Script is not up to date after domain reload: guid(547ed11001cb445d8bb247eb224e04c8) path("Assets/_project/Scripts/SelectionButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.6 MB). Loaded Objects now: 6316.
+Memory consumption went from 281.5 MB to 279.9 MB.
+Total: 2.878541 ms (FindLiveObjects: 0.210750 ms CreateObjectMapping: 0.066375 ms MarkObjects: 2.338625 ms  DeleteObjects: 0.262500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.581149 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.003579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725cfcacd7840efe142c0b1bebc331c2') in 0.000299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.659907 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.001843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.000312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.216587 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e1eb8d962fe84847f09faf7c3f776') in 0.000760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98118e193ebb0afda1ebcbaab266f17e') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
