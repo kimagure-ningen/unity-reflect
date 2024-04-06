@@ -9,8 +9,6 @@ public class PlayerController : MonoBehaviour
 {
     private float playerSpeed = 3f;
     public float jumpPower = 7.5f;
-    [SerializeField] private LineRenderer lineRenderer;
-    [SerializeField] private Light light;
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject visual;
     [SerializeField] private FixedJoystick joystick;
@@ -96,7 +94,6 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("Grounded");
             isGrounded = true;
         }
     }

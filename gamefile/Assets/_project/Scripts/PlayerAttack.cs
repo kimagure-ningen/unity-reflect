@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using Utility;
 using DG.Tweening;
+using UnityEngine.Serialization;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -19,8 +20,8 @@ public class PlayerAttack : MonoBehaviour
 
     private bool isAttacking;
 
-    [SerializeField]
-    private Light light;
+    [FormerlySerializedAs("light")] [SerializeField]
+    private Light sceneLight;
     
     [SerializeField] private LineRenderer lineRenderer;
     private float lineLength = 0f;
@@ -41,7 +42,6 @@ public class PlayerAttack : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-
         originalCameraTransform = cameraTransform.position;
         
         isAttacking = false;
@@ -64,24 +64,21 @@ public class PlayerAttack : MonoBehaviour
         
         // PC DEBUG用
         
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     touchPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-        //     // Debug.Log("touchPos: " + touchPos);
-        // }
-        //
-        // if (Input.GetMouseButtonUp(0))
-        // {
-        //     releasePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-        //     // Debug.Log("releasePos: " + releasePos);
-        //     if (!isAttacking)
-        //     {
-        //         Attack();
-        //         anim.SetTrigger("IsAttacking");
-        //     }
-        //     isAttacking = true;
-        //     
-        // }
+        if (Input.GetMouseButtonDown(0))
+        {
+            touchPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+        }
+        
+        if (Input.GetMouseButtonUp(0))
+        {
+            releasePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+            if (!isAttacking)
+            {
+                isAttacking = true;
+                Attack();
+            }
+            
+        }
         
         if (player.isStickMoving)
         {
@@ -124,10 +121,9 @@ public class PlayerAttack : MonoBehaviour
             
             if (!isAttacking)
             {
-                Attack();
                 isAttacking = true;
                 isTouching = false;
-                anim.SetTrigger("IsAttacking");
+                Attack();
             }
         }
     }
@@ -138,15 +134,24 @@ public class PlayerAttack : MonoBehaviour
         attackDirX = releasePos.x - touchPos.x;
         attackDirY = releasePos.y - touchPos.y;
         
+        if (attackDirX == 0 && attackDirY == 0)
+        {
+            isAttacking = false;
+            lineLength = 0f;
+            return;
+        }
+        
+        anim.SetTrigger("IsAttacking");
+        
         audioSource.Play();
 
         DOTween.To(() => lineLength, x => lineLength = x, 30f, 0.7f).OnComplete(() =>
         {
-            DOTween.To(() => light.intensity, x => light.intensity = x, 4, 0.25f).OnComplete(() =>
+            DOTween.To(() => sceneLight.intensity, x => sceneLight.intensity = x, 4, 0.25f).OnComplete(() =>
             {
                 lineLength = 0f;
                 cameraTransform.localPosition = originalCameraTransform + Random.insideUnitSphere * 0.02f;
-                DOTween.To(() => light.intensity, x => light.intensity = x, 2, 0.1f).OnComplete(() =>
+                DOTween.To(() => sceneLight.intensity, x => sceneLight.intensity = x, 2, 0.1f).OnComplete(() =>
                 {
                     isAttacking = false;
                 });

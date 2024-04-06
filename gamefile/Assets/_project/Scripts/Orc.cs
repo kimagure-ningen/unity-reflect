@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,25 +6,25 @@ using DG.Tweening;
 public class Orc : MonoBehaviour
 {
     [SerializeField] private Animator anim;
-    
     [SerializeField] private BattleField battleField;
-
+    private BoxCollider orcCollider;
     private float enemyHealth = 100f;
-    private Rigidbody rigidbody;
+    private Rigidbody orcRigidbody;
     private bool isDying = false;
     private bool isDead = false;
 
     private void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        orcRigidbody = GetComponent<Rigidbody>();
+        orcCollider = GetComponent<BoxCollider>();
     }
 
     private void Update()
     {
-        if (rigidbody.velocity.magnitude < 1f)
+        if (orcRigidbody.velocity.magnitude < 1f)
         {
             anim.SetTrigger("IsStopping");
-        } else if (rigidbody.velocity.magnitude == 0f)
+        } else if (orcRigidbody.velocity.magnitude == 0f)
         {
             anim.SetTrigger("Stop");
         }
@@ -118,6 +117,7 @@ public class Orc : MonoBehaviour
     {
         battleField.OrcDead();
         isDead = true;
+        orcCollider.enabled = false;
         transform.DOKill();
         anim.SetTrigger("Die");
     }
