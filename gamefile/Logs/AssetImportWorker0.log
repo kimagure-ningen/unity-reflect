@@ -4304,3 +4304,43 @@ Received Import Request.
 Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf using Guid(5cbce0d58b9d6d147bde7b2601194b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5693e694c91f8c8226e1301ee198d8ae') in 0.000809 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3035.145527 seconds.
+  path: Assets/_project/Scenes/Title.unity
+  artifactKey: Guid(a2a78e98f8ae2401baf3731808484177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_project/Scenes/Title.unity using Guid(a2a78e98f8ae2401baf3731808484177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee82436382d48cbe63e133cdc469e92') in 0.008970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.852217 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Utils.pdf
+  artifactKey: Guid(0aca0e2d06b26544681357ef98393b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Utils.pdf using Guid(0aca0e2d06b26544681357ef98393b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea63776537458b55111dcbd66cc05f74') in 0.005236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.245297 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Editor/Constants
+  artifactKey: Guid(6830cf83a08955746a19c26bcb75fbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Editor/Constants using Guid(6830cf83a08955746a19c26bcb75fbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5b537ca32e14772981f7c201fdf5ab') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.721164 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils
+  artifactKey: Guid(38851c0055860034180f030b34a3d452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils using Guid(38851c0055860034180f030b34a3d452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96aded01be5d613c16bdf4c843d8cd9') in 0.000777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.302290 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Editor/StyledInspector
+  artifactKey: Guid(7841477f6d1bbe44eab37cd31c0c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Editor/StyledInspector using Guid(7841477f6d1bbe44eab37cd31c0c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b8fa771a33020316bf6546b3466355') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
