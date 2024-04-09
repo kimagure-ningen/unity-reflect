@@ -4344,3 +4344,67 @@ Received Import Request.
 Start importing Assets/BOXOPHOBIC/Utils/Editor/StyledInspector using Guid(7841477f6d1bbe44eab37cd31c0c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b8fa771a33020316bf6546b3466355') in 0.000491 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18541.469187 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings
+  artifactKey: Guid(938d9248e9f0f574cb40a5bbca66dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings using Guid(938d9248e9f0f574cb40a5bbca66dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f2e4053fe7eb1fa7ea2522883071b') in 0.019029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.430593 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab
+  artifactKey: Guid(dd3ee0c97aab8a7498c9292f3482f60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab using Guid(dd3ee0c97aab8a7498c9292f3482f60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2017caaa1e09bae2ba1f258d4fc17f') in 0.222045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab
+  artifactKey: Guid(6b444276162548b4e9107350b71e775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab using Guid(6b444276162548b4e9107350b71e775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2343be4d8103b378dfbe6d646abb4743') in 0.015168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab
+  artifactKey: Guid(b0622c7c0ff092b46a37f31c718c5eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab using Guid(b0622c7c0ff092b46a37f31c718c5eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fc4e0436cdf7f1a344ce55224fd326') in 0.010509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.273108 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials
+  artifactKey: Guid(f5f2b39f73ab79f42a2dd2ccadae1581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials using Guid(f5f2b39f73ab79f42a2dd2ccadae1581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a2c88bd33ee837df391d4c33b542c4') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.682480 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures
+  artifactKey: Guid(622c850911a24ab4c87b6b1cbb58ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures using Guid(622c850911a24ab4c87b6b1cbb58ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1ec1627a392e0d3658aa839cee7945') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032350 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a263583755f5c98c4cde4e48b4e1bc') in 0.492781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.781898 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat
+  artifactKey: Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat using Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336ffcffa428f7413c428234245b298a') in 0.375260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6

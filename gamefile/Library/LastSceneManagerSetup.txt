@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_project/Scenes/Title.unity
+- path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
